@@ -38,3 +38,32 @@
 # print(lst)
 
 #4
+# lst1 = ['1', '2']
+# lst2 = ['a', 'b', 'c']
+# lst = [(i, j) for i in ['1', '2'] for j in ['a', 'b', 'c']]
+# print(lst)
+
+#5
+# lst = [(i, j) for i in range(0, 5) for j in range(0, 5) if j == i]
+# print(lst)
+
+# lst = [(i, j) for i in range(1, 4) for j in range(1, 4) if i % 2 == 0]
+# print(lst)
+
+#6
+# lst = [[j for j in range(1, 6)] for i in range(0, 3)]
+# print(lst)
+
+# lst = [[j for j in [[1,2,3],[1,2,3],[1,2,3]]] for i in range(0, 3)]
+# print(lst)
+
+#7
+# lst = ('a', 'b', 'c', 'd', 'e')
+# dct = {lst: i for i in range(1, 6)}
+# print(dct)
+
+# lst1 = ('name1', 'name2', 'name3', 'name4')
+# lst2 = ('john', 'kate', 'alex', 'mary')
+# dct = {lst1: i for i in lst2}
+# print(dct)
+
